@@ -88,37 +88,61 @@ function draw() {
   noStroke();
   for (var x = trebleVol; x < width; x=x+200) {
     fill(200,0,100,30)
-    circle(x,200,x,100);
+    circle(50,x,200,x);
     fill(100,0,100,30)
-    circle(x, 400, x, 300);
+    circle(100, x, 150,x);
     fill(0,100,200,30)
-    circle(x,600,x,500);
+    circle(150,x,100,x);
     fill(0,200,200,30)
-    circle(x,800,x,700);
+    circle(200,x,50,x);
    }
 
+   noStroke();
+   for (var x = trebleVol; x < width; x=x+200) {
+     fill(200,0,100,30)
+     circle(300,x,450,x);
+     fill(100,0,100,30)
+     circle(350, x, 400,x);
+     fill(0,100,200,30)
+     circle(400,x,350,x);
+     fill(0,200,200,30)
+     circle(450,x,300,x);
+    }
+
+    noStroke();
+    for (var x = trebleVol; x < width; x=x+200) {
+      fill(200,0,100,30)
+      circle(x,200,x,100);
+      fill(100,0,100,30)
+      circle(x, 400, x, 300);
+      fill(0,100,200,30)
+      circle(x,600,x,500);
+      fill(0,200,200,30)
+      circle(x,800,x,700);
+     }
+     
   noStroke();
   for (var x = midVol; x < width; x=x+200) {
     fill(200,250,250,10)
-    circle(x,800,x,100);
+    circle(800,x,100,x);
     fill(100,200,0,10)
-    circle(x, 600, x, 300);
+    circle(600, x, 300,x);
     fill(0,200,200,10)
-    circle(x,400,x,500);
+    circle(400,x,500,x);
     fill(250,0,200,10)
-    circle(x,200,x,700);
+    circle(200,x,700,x);
    }
  
    noStroke();
    for (var x = bassVol; x < width; x=x+200) {
      fill(250,0,200,30)
-     circle(x,200,x,700);
+     circle(200,x,700,x);
      fill(100,200,200,30)
-     circle(x, 400, x, 500);
+     circle(400, x, 500,x);
      fill(100,200,0,30)
-     circle(x,600,x,300);
+     circle(600,x,300,x);
      fill(200,250,250,30)
-     circle(x,800,x,100);
+     circle(800,x,100,x);
     }
   
 }
